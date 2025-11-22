@@ -1,0 +1,140 @@
+[
+    {
+        "nome": "color",
+        "descricao": "Define a cor do texto de um elemento."
+    },
+    {
+        "nome": "background-color",
+        "descricao": "Define a cor de fundo de um elemento."
+    },
+    {
+        "nome": "font-size",
+        "descricao": "Define o tamanho do texto."
+    },
+    {
+        "nome": "font-family",
+        "descricao": "Especifica a família da fonte para o texto (ex: Arial, sans-serif)."
+    },
+    {
+        "nome": "font-weight",
+        "descricao": "Define a espessura (peso) da fonte. Ex: normal, bold."
+    },
+    {
+        "nome": "margin",
+        "descricao": "Define o espaçamento externo (margem) de um elemento."
+    },
+    {
+        "nome": "padding",
+        "descricao": "Define o espaçamento interno (preenchimento) de um elemento."
+    },
+    {
+        "nome": "border",
+        "descricao": "Define a borda de um elemento (espessura, estilo e cor)."
+    },
+    {
+        "nome": "width",
+        "descricao": "Define a largura de um elemento."
+    },
+    {
+        "nome": "height",
+        "descricao": "Define a altura de um elemento."
+    },
+    {
+        "nome": "display",
+        "descricao": "Define o comportamento de exibição de um elemento (ex: block, inline, flex)."
+    },
+    {
+        "nome": "position",
+        "descricao": "Especifica o método de posicionamento de um elemento (ex: static, relative, absolute)."
+    },
+    {
+        "nome": "text-align",
+        "descricao": "Define o alinhamento horizontal do texto (ex: left, center, right)."
+    },
+    {
+        "nome": "border-radius",
+        "descricao": "Define o raio das bordas de um elemento para arredondá-las."
+    },
+    {
+        "nome": "cursor",
+        "descricao": "Especifica o cursor do mouse a ser exibido quando ele passa sobre um elemento (ex: pointer, default)."
+    },
+    {
+        "nome": "transition",
+        "descricao": "Permite definir uma transição suave entre diferentes estados de um elemento (ex: ao passar o mouse)."
+    },
+    {
+        "nome": "transform",
+        "descricao": "Aplica uma transformação 2D ou 3D a um elemento (ex: scale, rotate, translate)."
+    },
+    {
+        "nome": "flex-direction",
+        "descricao": "Define a direção em que os itens flexíveis são colocados no container (ex: row, column)."
+    },
+    {
+        "nome": "justify-content",
+        "descricao": "Alinha os itens flexíveis ao longo do eixo principal do container."
+    },
+    {
+        "nome": "align-items",
+        "descricao": "Alinha os itens flexíveis ao longo do eixo transversal do container."
+    },
+    {
+        "nome": "display: grid",
+        "descricao": "Ativa o contexto de formatação de layout em grade (Grid Layout) para um elemento."
+    },
+    {
+        "nome": "grid-template-columns",
+        "descricao": "Define as colunas do layout em grade, especificando seus tamanhos."
+    },
+    {
+        "nome": "gap",
+        "descricao": "Define o espaçamento (vão) entre linhas e colunas em layouts Flexbox e Grid."
+    },
+    {
+        "nome": ":hover",
+        "descricao": "Pseudo-classe que seleciona um elemento quando o cursor do mouse está sobre ele."
+    },
+    {
+        "nome": "::before / ::after",
+        "descricao": "Pseudo-elementos que criam um elemento filho antes ou depois do conteúdo de um elemento selecionado."
+    },
+    {
+        "nome": "box-shadow",
+        "descricao": "Adiciona uma ou mais sombras a um elemento."
+    },
+    {
+        "nome": "opacity",
+        "descricao": "Define o nível de opacidade (transparência) de um elemento. Varia de 0.0 (transparente) a 1.0 (opaco)."
+    },
+    {
+        "nome": "z-index",
+        "descricao": "Especifica a ordem de empilhamento de um elemento posicionado. Um elemento com maior z-index fica na frente de um com menor z-index."
+    },
+    {
+        "nome": "line-height",
+        "descricao": "Define a altura de uma linha de texto, usado para controlar o espaçamento vertical entre as linhas."
+    },
+    {
+        "nome": "text-decoration",
+        "descricao": "Especifica a decoração adicionada ao texto, como 'underline' (sublinhado) ou 'none' (nenhuma)."
+    },
+    {
+        "nome": "list-style",
+        "descricao": "Define a aparência dos marcadores de item em uma lista (ex: 'none' para remover os marcadores)."
+    },
+    {
+        "nome": "overflow",
+        "descricao": "Controla o que acontece quando o conteúdo de um elemento transborda sua caixa (ex: 'auto', 'hidden', 'scroll')."
+    },
+    {
+        "nome": "box-sizing",
+        "descricao": "Define como a largura e a altura totais de um elemento são calculadas. 'border-box' inclui padding e border no tamanho total."
+    },
+    {
+        "nome": "var()",
+        "descricao": "Função usada para inserir o valor de uma propriedade personalizada (variável CSS) em outro lugar da folha de estilo."
+    }
+]
+
+    

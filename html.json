@@ -1,0 +1,134 @@
+[
+    {
+        "nome": "<h1>",
+        "descricao": "Define o cabeçalho de maior importância. Vai de <h1> a <h6>."
+    },
+    {
+        "nome": "<p>",
+        "descricao": "Define um parágrafo de texto."
+    },
+    {
+        "nome": "<a>",
+        "descricao": "Cria um hiperlink para outra página ou recurso. Atributo principal: href."
+    },
+    {
+        "nome": "<img>",
+        "descricao": "Insere uma imagem na página. Atributo principal: src."
+    },
+    {
+        "nome": "<div>",
+        "descricao": "Define uma divisão ou seção genérica no documento. Usado para agrupar elementos."
+    },
+    {
+        "nome": "<span>",
+        "descricao": "Define um contêiner em linha para um pequeno pedaço de texto ou conteúdo."
+    },
+    {
+        "nome": "<ul>",
+        "descricao": "Cria uma lista não ordenada (com marcadores)."
+    },
+    {
+        "nome": "<ol>",
+        "descricao": "Cria uma lista ordenada (com números ou letras)."
+    },
+    {
+        "nome": "<li>",
+        "descricao": "Define um item dentro de uma lista (<ul> ou <ol>)."
+    },
+    {
+        "nome": "<form>",
+        "descricao": "Cria um formulário HTML para entrada de dados do usuário."
+    },
+    {
+        "nome": "<input>",
+        "descricao": "Cria um campo de entrada de dados dentro de um formulário. O tipo é definido pelo atributo 'type'."
+    },
+    {
+        "nome": "<button>",
+        "descricao": "Define um botão clicável."
+    },
+    {
+        "nome": "<table>",
+        "descricao": "Cria uma tabela para exibir dados em linhas e colunas."
+    },
+    {
+        "nome": "<thead>",
+        "descricao": "Agrupa o conteúdo do cabeçalho em uma tabela."
+    },
+    {
+        "nome": "<tbody>",
+        "descricao": "Agrupa o conteúdo do corpo em uma tabela."
+    },
+    {
+        "nome": "<header>",
+        "descricao": "Define o cabeçalho de uma página ou seção. Geralmente contém o logotipo, título e navegação."
+    },
+    {
+        "nome": "<main>",
+        "descricao": "Define o conteúdo principal e único de um documento. O conteúdo dentro dele deve ser exclusivo da página."
+    },
+    {
+        "nome": "<footer>",
+        "descricao": "Define o rodapé de uma página ou seção. Geralmente contém informações de autoria, direitos autorais e links relacionados."
+    },
+    {
+        "nome": "<textarea>",
+        "descricao": "Define um campo de entrada de texto de múltiplas linhas."
+    },
+    {
+        "nome": "<nav>",
+        "descricao": "Define um conjunto de links de navegação."
+    },
+    {
+        "nome": "<section>",
+        "descricao": "Define uma seção em um documento, como capítulos, cabeçalhos, rodapés ou outras seções."
+    },
+    {
+        "nome": "<article>",
+        "descricao": "Define um conteúdo autônomo e independente, como um post de blog, artigo de notícias ou comentário de fórum."
+    },
+    {
+        "nome": "<aside>",
+        "descricao": "Define um conteúdo à parte do conteúdo principal, como uma barra lateral (sidebar)."
+    },
+    {
+        "nome": "<label>",
+        "descricao": "Define um rótulo para um elemento <input> em um formulário, melhorando a acessibilidade."
+    },
+    {
+        "nome": "<select>",
+        "descricao": "Cria uma lista suspensa (drop-down) para seleção de opções."
+    },
+    {
+        "nome": "<option>",
+        "descricao": "Define uma opção em uma lista <select>."
+    },
+    {
+        "nome": "<body>",
+        "descricao": "Define o corpo do documento, contendo todo o conteúdo visível da página."
+    },
+    {
+        "nome": "<head>",
+        "descricao": "Contêiner para metadados (dados sobre o documento), como <title>, <link>, <meta>, <script> e <style>."
+    },
+    {
+        "nome": "<title>",
+        "descricao": "Define o título do documento, exibido na aba ou na barra de título do navegador."
+    },
+    {
+        "nome": "<link>",
+        "descricao": "Define a relação entre o documento atual e um recurso externo, comumente usado para vincular folhas de estilo (CSS)."
+    },
+    {
+        "nome": "<script>",
+        "descricao": "Usado para incorporar ou referenciar um script executável, geralmente JavaScript."
+    },
+    {
+        "nome": "<tr>",
+        "descricao": "Define uma linha (table row) em uma tabela."
+    },
+    {
+        "nome": "<td>",
+        "descricao": "Define uma célula de dados padrão (table data) em uma tabela."
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "nome": "function",
+        "descricao": "Declara uma função, um bloco de código reutilizável."
+    },
+    {
+        "nome": "let",
+        "descricao": "Declara uma variável com escopo de bloco, cujo valor pode ser reatribuído."
+    },
+    {
+        "nome": "const",
+        "descricao": "Declara uma constante com escopo de bloco, cujo valor não pode ser reatribuído."
+    },
+    {
+        "nome": "var",
+        "descricao": "Declara uma variável com escopo de função ou global. Menos usado atualmente."
+    },
+    {
+        "nome": "if / else",
+        "descricao": "Executa um bloco de código se uma condição for verdadeira (if) e outro se for falsa (else)."
+    },
+    {
+        "nome": "for",
+        "descricao": "Cria um laço (loop) que executa um bloco de código repetidamente."
+    },
+    {
+        "nome": "array",
+        "descricao": "Um objeto especial usado para armazenar múltiplos valores em uma única variável."
+    },
+    {
+        "nome": "object",
+        "descricao": "Uma coleção de pares chave-valor, usada para agrupar dados e funcionalidades relacionadas."
+    },
+    {
+        "nome": "string",
+        "descricao": "Tipo de dado usado para representar texto. Fica entre aspas."
+    },
+    {
+        "nome": "number",
+        "descricao": "Tipo de dado para representar números, sejam inteiros ou de ponto flutuante."
+    },
+    {
+        "nome": "boolean",
+        "descricao": "Tipo de dado lógico que pode ter apenas dois valores: true (verdadeiro) ou false (falso)."
+    },
+    {
+        "nome": "addEventListener",
+        "descricao": "Método que anexa um 'ouvinte de evento' a um elemento, executando uma função quando o evento ocorre (ex: 'click')."
+    },
+    {
+        "nome": "document",
+        "descricao": "Objeto que representa a página web inteira, servindo como ponto de entrada para o conteúdo do DOM."
+    },
+    {
+        "nome": "getElementById",
+        "descricao": "Método do 'document' que retorna o elemento cujo atributo ID corresponde ao valor especificado."
+    },
+    {
+        "nome": "querySelector",
+        "descricao": "Retorna o primeiro elemento dentro do documento que corresponde ao seletor CSS especificado."
+    },
+    {
+        "nome": "fetch",
+        "descricao": "API moderna para realizar requisições de rede (como buscar dados de um arquivo JSON), retornando uma Promise."
+    },
+    {
+        "nome": "map",
+        "descricao": "Método de array que cria um novo array populado com os resultados da chamada de uma função para cada elemento do array."
+    },
+    {
+        "nome": "filter",
+        "descricao": "Método de array que cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida."
+    },
+    {
+        "nome": "forEach",
+        "descricao": "Método de array que executa uma função para cada elemento do array, sem criar um novo array."
+    },
+    {
+        "nome": "async / await",
+        "descricao": "Sintaxe para trabalhar com código assíncrono de forma mais síncrona e legível, usada com Promises."
+    },
+    {
+        "nome": "Promise",
+        "descricao": "Objeto que representa a eventual conclusão (ou falha) de uma operação assíncrona e seu valor resultante."
+    },
+    {
+        "nome": "localStorage",
+        "descricao": "API do navegador que permite armazenar pares de chave-valor de forma persistente, sem data de expiração."
+    },
+    {
+        "nome": "try...catch",
+        "descricao": "Bloco de código para tratamento de erros. O código em 'try' é executado, e se um erro ocorrer, o bloco 'catch' é executado."
+    },
+    {
+        "nome": "innerHTML",
+        "descricao": "Propriedade de um elemento do DOM que obtém ou define a sintaxe HTML contida dentro do elemento."
+    },
+    {
+        "nome": "textContent",
+        "descricao": "Propriedade que representa o conteúdo de texto de um nó e seus descendentes, sem incluir as tags HTML."
+    },
+    {
+        "nome": "JSON.parse()",
+        "descricao": "Método que analisa uma string JSON, construindo o valor ou objeto JavaScript descrito pela string."
+    },
+    {
+        "nome": "JSON.stringify()",
+        "descricao": "Método que converte um objeto ou valor JavaScript em uma string JSON."
+    },
+    {
+        "nome": "setTimeout",
+        "descricao": "Define um temporizador que executa uma função ou um trecho de código uma vez após o término do temporizador."
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "html",
+        "nome": "HTML",
+        "descricao": "Linguagem de Marcação de Hipertexto para criar a estrutura de páginas web.",
+        "anoCriacao": 1993,
+        "arquivoDados": "html.json",
+        "comentario": "&lt;!-- %s --&gt;"
+    },
+    {
+        "id": "css",
+        "nome": "CSS",
+        "descricao": "Folhas de Estilo em Cascata para estilizar a aparência de documentos web.",
+        "anoCriacao": 1996,
+        "arquivoDados": "css.json",
+        "comentario": "/* %s */"
+    },
+    {
+        "id": "js",
+        "nome": "JavaScript",
+        "descricao": "Linguagem de programação para criar interatividade em páginas web.",
+        "anoCriacao": 1995,
+        "arquivoDados": "javascript.json",
+        "comentario": "// %s"
+    }
+]

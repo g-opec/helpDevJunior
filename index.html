@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- A declaração do tipo de documento, essencial para que o navegador renderize a página corretamente em modo padrão. -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Dev Junior</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Cabeçalho principal da página -->
+        <h1><span class="highlight">"</span>Help Dev Junior<span class="highlight">";</span></h1>
+        <div>
+                <!-- Usar <label> melhora a acessibilidade, associando o texto ao campo de input. -->
+                <label for="buscaInput">Digite uma tag/função (HTML, CSS, JS) para ver sua descrição.</label>
+                <input type="text" id="buscaInput" placeholder="Ex: <h1>, color, function">
+                <button id="botao-busca" class="botao-principal">Buscar</button>
+         </div>       
+    </header>
+
+    <main>
+        <!-- Conteúdo principal da página -->
+        <div class="analysis-container">
+            <!-- Coluna da esquerda: entrada de dados do usuário -->
+            <div class="coluna" id="coluna-input">
+                <h2>Analisador de Código</h2>
+                <textarea id="codigoInput" placeholder="Cole seu código HTML, CSS ou JS aqui..."></textarea>
+                <button id="botao-comentar" class="botao-principal">Comentar</button>
+            </div>
+            <!-- Coluna da direita: exibição dos resultados -->
+            <div class="coluna" id="coluna-resultado">
+                <h2>Código Descrito e Comentado</h2>
+                <!-- Área para exibir o resultado da busca simples -->
+                <div id="search-result-display"></div>
+                <!-- Área para exibir o código comentado -->
+                <div id="resultado-comentario"></div>
+                <button id="botao-copiar" class="botao-principal">Copiar Código</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Rodapé da página com links externos -->
+        <ul class="footer-links">
+            <li>
+                <!-- rel="noopener noreferrer" é uma boa prática de segurança para links que abrem em nova aba. -->
+                <a href="https://github.com/guilhermeonrails" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">Alura</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
