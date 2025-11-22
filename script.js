@@ -121,9 +121,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Escapa caracteres HTML para exibição segura
             let linhaHtml = linha.replace(/</g, "&lt;").replace(/>/g, "&gt;");
             
-            // Remove o conteúdo dentro de aspas (simples ou duplas) da linha antes de buscar.
-            // Isso evita que a regex encontre termos em strings literais, como no atributo 'placeholder'.
-            const linhaParaBusca = linha.replace(/"[^"]*"|'[^']*'/g, '""');
+            // Remove o conteúdo de texto entre as tags HTML e o conteúdo dentro de aspas.
+            // Isso evita que a regex encontre termos em strings literais (ex: placeholder) ou no texto visível da página (ex: dentro de <label>).
+            // Ex: "<label for='x'>Texto</label>" se torna "<label for='x'></label>" para a busca.
+            const linhaParaBusca = linha.replace(/>[^<]*</g, '><').replace(/"[^"]*"|'[^']*'/g, '""');
 
             // Objeto para agrupar comentários por tipo (js, css, html), usando Sets para evitar descrições duplicadas.
             const comentariosPorTipo = {
