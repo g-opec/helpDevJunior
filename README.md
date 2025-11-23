@@ -40,7 +40,7 @@ A arquitetura do projeto foi pensada para ser escalável e de fácil manutençã
 ### Análise e Comentário de Código
 * Área de texto para inserção de blocos de código (HTML, CSS e/ou JS).
 * Análise linha por linha que identifica múltiplos termos em uma mesma linha.
-* Agrupamento inteligente de comentários por linguagem, aplicando a sintaxe correta para cada uma (`` para HTML, `/* */` para CSS e `//` para JS).
+* Agrupamento inteligente de comentários por linguagem, aplicando a sintaxe correta para cada uma (`<!-- -->` para HTML, `/* */` para CSS e `//` para JS).
 * Lógica de detecção aprimorada para evitar falsos positivos (ex: diferenciação entre `var` do JavaScript e a função `var()` do CSS).
 
 ### Cópia de Código
